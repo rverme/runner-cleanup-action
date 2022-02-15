@@ -1,6 +1,6 @@
 name: 'runner-cleanup-action'
 description: 'Clean up the runner workspace after execution of a job.'
 runs:
-  using: 'node16'
+  using: 'node12'
   main: 'index.js'
   post: 'cleanup.js'
